@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "forularz", "forularz\forularz.csproj", "{06C5B05A-74F6-41F2-995F-9FC21A1CC357}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{06C5B05A-74F6-41F2-995F-9FC21A1CC357}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06C5B05A-74F6-41F2-995F-9FC21A1CC357}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06C5B05A-74F6-41F2-995F-9FC21A1CC357}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06C5B05A-74F6-41F2-995F-9FC21A1CC357}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {136BE670-B6FD-40EF-9EB8-AB4481B10107}
+	EndGlobalSection
+EndGlobal
