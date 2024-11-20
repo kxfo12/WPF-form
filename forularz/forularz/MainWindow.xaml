@@ -8,10 +8,17 @@
         Title="MainWindow" Height="450" Width="800">
     <StackPanel>
         <Slider x:Name="textSizeSlider" 
-            Minimum="10" Maximum="25" Value="24" 
+            Minimum="10" Maximum="25" Value="{Binding ElementName=textBoxForNumber2, Path=Text}" 
         />
-        <TextBlock x:Name="blokOfText">
+        <TextBlock x:Name="blokOfText" 
+            FontSize="{Binding Path=Value, ElementName=textSizeSlider}">
             Test text
         </TextBlock>
+        <TextBox x:Name="textBoxForNumber" 
+                 Text="{Binding Path=Value, ElementName=textSizeSlider}"
+                 Margin="24">
+        </TextBox>
+        <TextBox Margin="30" x:Name="textBoxForNumber2" Text="30"></TextBox>
+        
     </StackPanel>
 </Window>
